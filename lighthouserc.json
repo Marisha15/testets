@@ -14,7 +14,7 @@
       "allowOverwriteOfLatestBranchBuild": true,
       "ignoreIfBuildExists": true,
       "target": "lhci",
-      "token": "4efe21b4-0171-4904-b5d8-f5e65b7aba48",
+      "token": "c4b6c03c-8711-4234-8a61-aee546b0ada0",
       "serverBaseUrl": "http://localhost:9001"
     }
   }
