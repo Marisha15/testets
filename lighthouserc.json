@@ -1,0 +1,21 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "ng serve",
+      "numberOfRuns": 1,
+      "url": ["https://www.independer.nl/zorgverzekering/intro.aspx"],
+      "settings": {
+        "preset": "desktop",
+        "chromeFlags": "--no-sandbox --disable-dev-shm-usage --headless --in-process-gpu",
+        "skipAudits": ["uses-http2", "uses-long-cache-ttl", "link-text"]
+      }
+    },
+    "upload": {
+      "allowOverwriteOfLatestBranchBuild": true,
+      "ignoreIfBuildExists": true,
+      "target": "lhci",
+      "token": "4efe21b4-0171-4904-b5d8-f5e65b7aba48",
+      "serverBaseUrl": "http://localhost:9001"
+    }
+  }
+}
