@@ -3,7 +3,7 @@
     "collect": {
       "startServerCommand": "ng serve",
       "numberOfRuns": 1,
-      "url": ["https://www.independer.nl/zorgverzekering/intro.aspx"],
+      "url": ["https://danielyefet.medium.com/pimp-your-pipeline-with-lighthouse-ci-75801a86a860"],
       "settings": {
         "preset": "desktop",
         "chromeFlags": "--no-sandbox --disable-dev-shm-usage --headless --in-process-gpu",
