@@ -10,8 +10,14 @@
         "skipAudits": ["uses-http2", "uses-long-cache-ttl", "link-text"]
       }
     },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["warn", {"minScore": 0.8}],
+        "categories:accessibility": ["error", {"minScore": 0.8}]
+      }
+    },
     "upload": {
-      "allowOverwriteOfLatestBranchBuild": true,
+      "allowOverwriteOfLatestBranchBuil
       "ignoreIfBuildExists": true,
       "target": "lhci",
       "token": "c4b6c03c-8711-4234-8a61-aee546b0ada0",
