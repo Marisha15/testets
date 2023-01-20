@@ -1,9 +1,8 @@
 {
   "ci": {
     "collect": {
-      "startServerCommand": "ng serve",
       "numberOfRuns": 1,
-      "url": ["http://localhost:4200"],
+      "url": ["https://www.independer.nl/"],
       "settings": {
         "preset": "desktop",
         "chromeFlags": "--no-sandbox",
@@ -17,7 +16,7 @@
       }
     },
     "upload": {
-      "allowOverwriteOfLatestBranchBuil
+      "allowOverwriteOfLatestBranchBuild": true,
       "ignoreIfBuildExists": true,
       "target": "lhci",
       "token": "c4b6c03c-8711-4234-8a61-aee546b0ada0",
