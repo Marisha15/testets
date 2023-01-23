@@ -2,7 +2,7 @@
   "name": "lighthouse-cli-test",
   "version": "0.0.0",
   "scripts": {
-    "lhci:audit": "concurrently \"npm run lhci:server\" \"lhci autorun\"",
+    "lhci:audit": "concurrently \"npm run lhci:server\" \"lhci autorun --chrome-flags=\"--user-agent=*Cypress/2.1.0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36\"",
     "lhci:wizard": "lhci wizard",
     "lhci:server": "lhci server --storage.storageMethod=sql --storage.sqlDialect=sqlite --storage.sqlDatabasePath=./db.sql",
     "ng": "ng",
